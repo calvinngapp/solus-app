@@ -22,13 +22,8 @@
       font-size: 14px;
     }
 
-    .wordmark {
-      font-style: italic;
-    }
-
-    .tagline {
-      color: #8A7F6A;
-    }
+    .wordmark { font-style: italic; }
+    .tagline { color: #8A7F6A; }
 
     main {
       max-width: 520px;
@@ -56,10 +51,18 @@
       margin-bottom: 40px;
     }
 
-    .app-store-note {
-      font-size: 13px;
-      color: #8A7F6A;
+    .app-store-badge {
+      display: inline-block;
       margin-top: 8px;
+    }
+
+    .app-store-badge img {
+      height: 44px;
+      width: auto;
+    }
+
+    .app-store-badge a {
+      border-bottom: none;
     }
 
     .divider {
@@ -154,7 +157,11 @@
       Just one thing, held quietly for one day.
     </p>
 
-    <p class="app-store-note">Available soon on the App Store</p>
+    <div class="app-store-badge">
+      <a href="https://apps.apple.com/app/solus-one-intention/id6760802347" target="_blank" rel="noopener">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" />
+      </a>
+    </div>
   </main>
 
   <div class="divider"></div>
@@ -165,6 +172,10 @@
       For questions or feedback, write to
       <a href="mailto:thesolusapp@gmail.com">thesolusapp@gmail.com</a>.
       We read every message.
+    </p>
+    <p>
+      You can also find Solus on the
+      <a href="https://apps.apple.com/app/solus-one-intention/id6760802347" target="_blank" rel="noopener">App Store</a>.
     </p>
   </section>
 
